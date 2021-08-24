@@ -35,19 +35,19 @@ x_data = ['5000', '6000', '7000', '8000', '9000', '10000', '11000', '12000', '13
         series_name="1号锭子",
         stack="总量",
         y_axis=[120, 132, 101, 134, 90, 230, 210],
-        label_opts=opts.LabelOpts(is_show=False),
+        label_opts=opts.LabelOpts(is_show=True),
     )
     .add_yaxis(
         series_name="2号锭子",
         stack="总量",
         y_axis=[220, 182, 191, 234, 290, 330, 310],
-        label_opts=opts.LabelOpts(is_show=False),
+        label_opts=opts.LabelOpts(is_show=True),
     )
     .add_yaxis(
         series_name="3号锭子",
         stack="总量",
         y_axis=[150, 232, 201, 154, 190, 330, 410],
-        label_opts=opts.LabelOpts(is_show=False),
+        label_opts=opts.LabelOpts(is_show=True),
     )
     .set_global_opts(
         title_opts=opts.TitleOpts(title="空锭的功耗"),
