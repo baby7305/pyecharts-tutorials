@@ -47,6 +47,11 @@ x_data = ['5000', '6000', '7000', '8000', '9000', '10000', '11000', '12000', '13
         label_opts=opts.LabelOpts(is_show=True),
     )
     .add_yaxis(
+        series_name="20g纱",
+        y_axis=[820, 932, 901, 934, 1290, 1330, 1320],
+        label_opts=opts.LabelOpts(is_show=True),
+    )
+    .add_yaxis(
         series_name="30g纱",
         y_axis=[320, 332, 301, 334, 390, 330, 320],
         label_opts=opts.LabelOpts(is_show=True),
@@ -64,11 +69,6 @@ x_data = ['5000', '6000', '7000', '8000', '9000', '10000', '11000', '12000', '13
     .add_yaxis(
         series_name="60g纱",
         y_axis=[320, 332, 301, 334, 390, 330, 320],
-        label_opts=opts.LabelOpts(is_show=True),
-    )
-    .add_yaxis(
-        series_name="70g纱",
-        y_axis=[820, 932, 901, 934, 1290, 1330, 1320],
         label_opts=opts.LabelOpts(is_show=True),
     )
     .set_global_opts(
