@@ -35,49 +35,49 @@ x_data = ['5000', '6000', '7000', '8000', '9000', '10000', '11000', '12000', '13
         series_name="空锭",
         stack="总量",
         y_axis=[120, 132, 101, 134, 90, 230, 210],
-        label_opts=opts.LabelOpts(is_show=False),
+        label_opts=opts.LabelOpts(is_show=True),
     )
     .add_yaxis(
         series_name="空管",
         stack="总量",
         y_axis=[220, 182, 191, 234, 290, 330, 310],
-        label_opts=opts.LabelOpts(is_show=False),
+        label_opts=opts.LabelOpts(is_show=True),
     )
     .add_yaxis(
         series_name="10g纱",
         stack="总量",
         y_axis=[150, 232, 201, 154, 190, 330, 410],
-        label_opts=opts.LabelOpts(is_show=False),
+        label_opts=opts.LabelOpts(is_show=True),
     )
     .add_yaxis(
         series_name="30g纱",
         stack="总量",
         y_axis=[320, 332, 301, 334, 390, 330, 320],
-        label_opts=opts.LabelOpts(is_show=False),
+        label_opts=opts.LabelOpts(is_show=True),
     )
     .add_yaxis(
         series_name="40g纱",
         stack="总量",
         y_axis=[820, 932, 901, 934, 1290, 1330, 1320],
-        label_opts=opts.LabelOpts(is_show=False),
+        label_opts=opts.LabelOpts(is_show=True),
     )
     .add_yaxis(
         series_name="50g纱",
         stack="总量",
         y_axis=[150, 232, 201, 154, 190, 330, 410],
-        label_opts=opts.LabelOpts(is_show=False),
+        label_opts=opts.LabelOpts(is_show=True),
     )
     .add_yaxis(
         series_name="60g纱",
         stack="总量",
         y_axis=[320, 332, 301, 334, 390, 330, 320],
-        label_opts=opts.LabelOpts(is_show=False),
+        label_opts=opts.LabelOpts(is_show=True),
     )
     .add_yaxis(
         series_name="70g纱",
         stack="总量",
         y_axis=[820, 932, 901, 934, 1290, 1330, 1320],
-        label_opts=opts.LabelOpts(is_show=False),
+        label_opts=opts.LabelOpts(is_show=True),
     )
     .set_global_opts(
         title_opts=opts.TitleOpts(title="1号锭子"),
