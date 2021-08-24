@@ -33,37 +33,25 @@ y_data = [820, 932, 901, 934, 1290, 1330, 1320]
     Line()
     .add_xaxis(xaxis_data=x_data)
     .add_yaxis(
-        series_name="邮件营销",
+        series_name="1号锭子",
         stack="总量",
         y_axis=[120, 132, 101, 134, 90, 230, 210],
         label_opts=opts.LabelOpts(is_show=False),
     )
     .add_yaxis(
-        series_name="联盟广告",
+        series_name="2号锭子",
         stack="总量",
         y_axis=[220, 182, 191, 234, 290, 330, 310],
         label_opts=opts.LabelOpts(is_show=False),
     )
     .add_yaxis(
-        series_name="视频广告",
+        series_name="3号锭子",
         stack="总量",
         y_axis=[150, 232, 201, 154, 190, 330, 410],
         label_opts=opts.LabelOpts(is_show=False),
     )
-    .add_yaxis(
-        series_name="直接访问",
-        stack="总量",
-        y_axis=[320, 332, 301, 334, 390, 330, 320],
-        label_opts=opts.LabelOpts(is_show=False),
-    )
-    .add_yaxis(
-        series_name="搜索引擎",
-        stack="总量",
-        y_axis=[820, 932, 901, 934, 1290, 1330, 1320],
-        label_opts=opts.LabelOpts(is_show=False),
-    )
     .set_global_opts(
-        title_opts=opts.TitleOpts(title="折线图堆叠"),
+        title_opts=opts.TitleOpts(title="空锭的功耗"),
         tooltip_opts=opts.TooltipOpts(trigger="axis"),
         yaxis_opts=opts.AxisOpts(
             type_="value",
