@@ -25,8 +25,7 @@ Gallery 使用 pyecharts 1.1.0
 """
 
 
-x_data = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
-y_data = [820, 932, 901, 934, 1290, 1330, 1320]
+x_data = ['5000', '6000', '7000', '8000', '9000', '10000', '11000', '12000', '13000', '14000', '15000', '16000', '17000', '18000', '19000', '20000', '21000', '22000', '23000', '24000', '25000']
 
 
 (
@@ -54,11 +53,14 @@ y_data = [820, 932, 901, 934, 1290, 1330, 1320]
         title_opts=opts.TitleOpts(title="空锭的功耗"),
         tooltip_opts=opts.TooltipOpts(trigger="axis"),
         yaxis_opts=opts.AxisOpts(
+            name='功耗/w',
             type_="value",
             axistick_opts=opts.AxisTickOpts(is_show=True),
             splitline_opts=opts.SplitLineOpts(is_show=True),
         ),
-        xaxis_opts=opts.AxisOpts(type_="category", boundary_gap=False),
+        xaxis_opts=opts.AxisOpts(
+            name='转速/min',
+            type_="category", boundary_gap=False),
     )
     .render("stacked_line_chart.html")
 )
