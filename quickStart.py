@@ -8,6 +8,16 @@ import pandas
 pandas.__version__
 
 
+# In[6]:
+
+
+import pandas as pd
+
+df = pd.read_csv('nba.csv')
+
+print(df)
+
+
 # In[ ]:
 
 
