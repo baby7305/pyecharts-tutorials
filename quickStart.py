@@ -32,6 +32,18 @@ myvar = pd.Series(a, index = ["x", "y", "z"])
 print(myvar["y"])
 
 
+# In[12]:
+
+
+import pandas as pd
+
+sites = {1: "Google", 2: "Runoob", 3: "Wiki"}
+
+myvar = pd.Series(sites)
+
+print(myvar)
+
+
 # In[ ]:
 
 
