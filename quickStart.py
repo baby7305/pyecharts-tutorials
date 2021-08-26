@@ -73,7 +73,8 @@ data = {
 
 df = pd.DataFrame(data, index = ["day1", "day2", "day3"])
 
-print(df)
+# 指定索引
+print(df.loc["day2"])
 
 
 # In[ ]:
