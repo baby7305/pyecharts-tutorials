@@ -9,7 +9,15 @@ import pyecharts
 print(pyecharts.__version__)
 
 
-# In[12]:
+# In[3]:
+
+
+import pandas as pd
+df = pd.read_csv('电锭带载功耗 - 复核0820.csv')
+print(df)
+
+
+# In[5]:
 
 
 import pyecharts.options as opts
@@ -33,12 +41,12 @@ x_data = ['5000', '6000', '7000', '8000', '9000', '10000', '11000', '12000', '13
     .add_xaxis(xaxis_data=x_data)
     .add_yaxis(
         series_name="1号锭子",
-        y_axis=[120, 132, 101, 134, 90, 230, 210],
+        y_axis=df.loc[0].values,
         label_opts=opts.LabelOpts(is_show=True),
     )
     .add_yaxis(
         series_name="2号锭子",
-        y_axis=[220, 182, 191, 234, 290, 330, 310],
+        y_axis=df.loc[1].values,
         label_opts=opts.LabelOpts(is_show=True),
     )
     .add_yaxis(
