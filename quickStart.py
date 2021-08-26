@@ -20,6 +20,18 @@ df = pd.DataFrame(data,columns=['Site','Age'])
 print(df)
 
 
+# In[18]:
+
+
+import pandas as pd
+
+data = {'Site':['Google', 'Runoob', 'Wiki'], 'Age':[10, 12, 13]}
+
+df = pd.DataFrame(data)
+
+print (df)
+
+
 # In[ ]:
 
 
