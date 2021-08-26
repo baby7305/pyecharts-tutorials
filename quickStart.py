@@ -20,6 +20,18 @@ myvar = pd.Series(a)
 print(myvar[1])
 
 
+# In[10]:
+
+
+import pandas as pd
+
+a = ["Google", "Runoob", "Wiki"]
+
+myvar = pd.Series(a, index = ["x", "y", "z"])
+
+print(myvar)
+
+
 # In[ ]:
 
 
