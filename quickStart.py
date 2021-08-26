@@ -57,10 +57,8 @@ data = {
 # 数据载入到 DataFrame 对象
 df = pd.DataFrame(data)
 
-# 返回第一行
-print(df.loc[0])
-# 返回第二行
-print(df.loc[1])
+# 返回第一行和第二行
+print(df.loc[[0, 1]])
 
 
 # In[ ]:
