@@ -39,7 +39,7 @@ import pandas as pd
 
 sites = {1: "Google", 2: "Runoob", 3: "Wiki"}
 
-myvar = pd.Series(sites)
+myvar = pd.Series(sites, index = [1, 2])
 
 print(myvar)
 
