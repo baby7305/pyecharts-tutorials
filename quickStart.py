@@ -46,7 +46,7 @@ x_data = ['5000', '6000', '7000', '8000', '9000', '10000', '11000', '12000', '13
     )
     .add_yaxis(
         series_name="2号锭子",
-        y_axis=df.loc[1].values,
+        y_axis=df['25000'].values,
         label_opts=opts.LabelOpts(is_show=True),
     )
     .add_yaxis(
